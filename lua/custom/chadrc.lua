@@ -26,6 +26,7 @@ M.plugins = {
       open_on_setup_file = true,
       git = {
         enable = true,
+        ignore = false,
         show_on_dirs = true,
       },
       view = {
@@ -43,6 +44,10 @@ M.plugins = {
         open_file = {
           resize_window = false,
         }
+      },
+      diagnostics = {
+        enable = true,
+        show_on_dirs = true
       }
     },
     ["NvChad/nvterm"] = {
