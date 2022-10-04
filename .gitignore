@@ -1,7 +1,4 @@
 plugin
-custom
-spell
-ftplugin
 .DS_Store
 lua/core
 lua/plugins
