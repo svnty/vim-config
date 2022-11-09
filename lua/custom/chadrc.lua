@@ -9,12 +9,21 @@ M.ui = {
 
 M.plugins = {
   user = {
-    ["petertriho/nvim-scrollbar"] = {},
+    ["petertriho/nvim-scrollbar"] = {
+      require("scrollbar").setup(),
+      cmd = "ScrollbarShow"
+    },
     ["kyazdani42/nvim-tree.lua"] = {
       event = "VimEnter"
     },
   },
   override = {
+    ["goolord/alpha-nvim"] = {
+      disable = false
+    },
+    ["petertriho/nvim-scrollbar"] = {
+      show = true,
+    },
     ["NvChad/ui"] = {
      tabufline = {
         enabled = true,
