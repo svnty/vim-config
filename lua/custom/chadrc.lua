@@ -9,6 +9,7 @@ M.ui = {
 
 M.plugins = {
   user = {
+    ["petertriho/nvim-scrollbar"] = {},
     ["kyazdani42/nvim-tree.lua"] = {
       event = "VimEnter"
     },
