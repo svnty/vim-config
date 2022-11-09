@@ -3,3 +3,4 @@ plugin
 lua/core
 lua/plugins
 ./init.lua
+init.lua
