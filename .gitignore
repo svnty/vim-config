@@ -4,3 +4,4 @@ lua/core
 lua/plugins
 ./init.lua
 init.lua
+.stylua.toml
