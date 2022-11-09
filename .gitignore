@@ -2,3 +2,4 @@ plugin
 .DS_Store
 lua/core
 lua/plugins
+./init.lua
